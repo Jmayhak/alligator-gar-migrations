@@ -22,6 +22,6 @@ Everything is about as basic as it gets.
 	
 The above is an example of a *.json file. The json files must be numeric. ie. 1.json, 2.json, etc.
 
-The tool will simple go through each version and run either the "up" or "down" commands.
+The tool will simply go through each version and run either the "up" or "down" commands.
 
 It's named "Alligator Gar" Migrations because the teeth are sharp. The commands are executed via the php "exec()" function. So, there's nothing stopping "rm -rf /"
