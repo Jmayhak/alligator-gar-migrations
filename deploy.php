@@ -115,7 +115,7 @@ if ($current_version < $version_to_deploy_to) {
         exit('Successfully canceled deployment.' . "\n");
     }
 
-    for ($i = $current_version - 1; $i >= $version_to_deploy_to; $i--) {
+    for ($i = $current_version; $i >= $version_to_deploy_to; $i--) {
         $deploy_script = file_exists($deploy_scripts_location . $i . '.json');
         if ($deploy_script == false) {
             echo 'WARNING! No deploy script found for version ' . $i . "\n";
