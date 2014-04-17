@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jmayhak/alligator-gar-migrations.png?label=ready&title=Ready)](https://waffle.io/jmayhak/alligator-gar-migrations)
 Alligator Gar Migrations
 ========================
 
